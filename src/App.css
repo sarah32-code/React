@@ -1,38 +1,120 @@
-.App {
+/* styles.css */
+
+/* HelloWorld styling */
+.hello-world {
+  color: green;
+  font-size: 24px;
+}
+
+/* Counter styling */
+.counter {
   text-align: center;
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter h1 {
+  color: blue;
+  font-size: 36px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.counter button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* FilteredList styling */
+.filter-list {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#typeDropdown {
+  margin-right: 10px;
 }
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+/* styles.css */
+
+/* HelloWorld styling */
+.hello-world {
+  color: green;
+  font-size: 24px;
+}
+
+/* Counter styling */
+.counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.counter h1 {
+  color: blue;
+  font-size: 36px;
+}
+
+.counter button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* styles.css */
+
+/* HelloWorld styling */
+.hello-world {
+  color: green;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Counter styling */
+.counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.counter h1 {
+  color: #4CAF50;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.counter button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #FF5733;
+  /* Orange color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.counter button:hover {
+  background-color: #FF8C42;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #4CAF50;
+  /* Green border */
+  border-radius: 8px;
+}
+
